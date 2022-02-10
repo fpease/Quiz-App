@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="Quiz.css">
+    <script type="text/javascript" src="Quiz.js"></script>
+</head>
+
+<body>
+    <div>
+        <form name="quiz" id="quiz">
+            <fieldset>
+                <legend style="align:center;">HTML5 Quiz</legend> <br>
+
+                <label>1. Which is a new HTML5 tag that applies a yellow background?</label> <br>
+                <input type="radio" name="ans1" value="A">&lt; highlight &gt; <br>
+                <input type="radio" name="ans1" value="B">&lt; yellow &gt; <br>
+                <input type="radio" name="ans1" value="C">&lt; mark &gt; <br>
+                <input type="radio" name="ans1" value="D">&lt; background &gt; <br> <br>
+
+
+                <label>2. In HTML5, how should you separate the content from the design?</label> <br>
+                <input type="radio" name="ans2" value="A"> JavaScript <br>
+                <input type="radio" name="ans2" value="B">&lt; table &gt; tag <br>
+                <input type="radio" name="ans2" value="C">&lt; div &gt; tag <br>
+                <input type="radio" name="ans2" value="D">CSS <br> <br>
+
+                <label>3. Which is the line break tag?</label> <br>
+                <input type="radio" name="ans3" value="A">&lt; lb &gt; <br>
+                <input type="radio" name="ans3" value="B">&lt; linebreak &gt; <br>
+                <input type="radio" name="ans3" value="C">&lt; break &gt; <br>
+                <input type="radio" name="ans3" value="D">&lt; br/ &gt; <br> <br>
+
+                <label>4. What does the strong tag do to text in an HTML document?</label> <br>
+                <input type="radio" name="ans4" value="A">Makes text colored <br>
+                <input type="radio" name="ans4" value="B">Makes text underline <br>
+                <input type="radio" name="ans4" value="C">Makes text bold <br>
+                <input type="radio" name="ans4" value="D">Makes text italicized <br> <br>
+
+                <label>5. Which replaces characters that cannot be typed into an HTML document?</label> <br>
+                <input type="radio" name="ans5" value="A">Attributes <br>
+                <input type="radio" name="ans5" value="B">Specialized tags <br>
+                <input type="radio" name="ans5" value="C">Entities <br>
+                <input type="radio" name="ans5" value="D">Tags <br> <br>
+
+                <input type="button" value="Submit" onClick="check()">
+                <p id="result"> </p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
